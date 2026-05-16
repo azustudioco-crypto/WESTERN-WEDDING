@@ -1,0 +1,71 @@
+:root {
+  --cream:  #F2EDE3;
+  --ivory:  #FEFAF4;
+  --brown:  #6B3A2A;
+  --copper: #C47A3A;
+  --dark:   #2A1A0E;
+  --gold:   #D4B896;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--copper);
+  border-radius: 2px;
+}
+
+.landing-wrapper {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-15px); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+@keyframes musicPulse {
+  0% {
+    box-shadow: 0 4px 20px rgba(42,26,14,0.5), 0 0 0 0 rgba(196,122,58,0.5);
+  }
+  70% {
+    box-shadow: 0 4px 20px rgba(42,26,14,0.5), 0 0 0 12px rgba(196,122,58,0);
+  }
+  100% {
+    box-shadow: 0 4px 20px rgba(42,26,14,0.5), 0 0 0 0 rgba(196,122,58,0);
+  }
+}
+
+@keyframes weddingPulse {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.03); }
+}
