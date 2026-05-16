@@ -35,7 +35,7 @@ export default function Invitation() {
       ref={sectionRef}
       style={{
         background: '#F2EDE3',
-        padding: '48px 32px 64px',
+        padding: '16px 32px 64px',
         textAlign: 'center',
       }}
     >

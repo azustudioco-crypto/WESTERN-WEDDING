@@ -24,7 +24,7 @@ export default function Reception() {
   }, [])
 
   return (
-    <div ref={sectionRef} style={{ background: '#2A1A0E', padding: '72px 28px', textAlign: 'center' }}>
+    <div ref={sectionRef} style={{ background: '#2A1A0E', padding: '40px 28px 72px', textAlign: 'center' }}>
       <img
         ref={imgRef}
         src={piedrasblancas}

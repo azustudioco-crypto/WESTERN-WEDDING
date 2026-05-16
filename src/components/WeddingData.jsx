@@ -47,7 +47,7 @@ export default function WeddingData() {
       ref={sectionRef}
       style={{
         background: '#F2EDE3',
-        padding: '80px 32px',
+        padding: '44px 32px 40px',
         textAlign: 'center',
       }}
     >
@@ -60,7 +60,7 @@ export default function WeddingData() {
           width: '100%',
           mixBlendMode: 'multiply',
           display: 'block',
-          margin: '0 auto 44px',
+          margin: '0 auto 22px',
           opacity: 0,
         }}
       />

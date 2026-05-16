@@ -70,7 +70,7 @@ export default function DressCode() {
         color: '#6B3A2A',
         marginTop: '8px',
       }}>
-        Formal Temática Texana
+        Semiformal con esencia western
       </p>
 
       <p style={{
