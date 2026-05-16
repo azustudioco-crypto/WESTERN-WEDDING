@@ -52,7 +52,7 @@ export default function App() {
           <div id="s-foto1"><FullPhoto src={foto1} position="center 60%" /></div>
           <div id="s-ceremonia"><Ceremony /></div>
           <div id="s-recepcion"><Reception /></div>
-          <div id="s-foto2"><FullPhoto src={foto2} position="center 12%" /></div>
+          <div id="s-foto2"><FullPhoto src={foto2} position="center 45%" /></div>
           <div id="s-itinerario"><Timeline /></div>
           <div id="s-countdown"><Countdown /></div>
           <div id="s-vestimenta"><DressCode /></div>

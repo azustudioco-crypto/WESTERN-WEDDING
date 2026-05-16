@@ -143,11 +143,14 @@ export default function Hero() {
         <h1
           ref={vRef}
           style={{
-            fontFamily: '"thornwood", serif',
-            fontSize: 'clamp(44px, 13vw, 82px)',
+            fontFamily: '"Cormorant Garamond", serif',
+            fontWeight: 300,
+            fontStyle: 'italic',
+            fontSize: 'clamp(52px, 15vw, 96px)',
             color: '#FEFAF4',
-            lineHeight: 0.88,
+            lineHeight: 0.9,
             opacity: 0,
+            letterSpacing: '0.02em',
           }}
         >
           Valentina
@@ -159,7 +162,7 @@ export default function Hero() {
             fontFamily: '"Pinyon Script", cursive',
             fontSize: 'clamp(40px, 10vw, 68px)',
             color: '#D4B896',
-            lineHeight: 0.8,
+            lineHeight: 0.85,
             display: 'block',
             opacity: 0,
           }}
@@ -170,11 +173,14 @@ export default function Hero() {
         <h1
           ref={jdRef}
           style={{
-            fontFamily: '"thornwood", serif',
-            fontSize: 'clamp(44px, 13vw, 82px)',
+            fontFamily: '"Cormorant Garamond", serif',
+            fontWeight: 300,
+            fontStyle: 'italic',
+            fontSize: 'clamp(52px, 15vw, 96px)',
             color: '#FEFAF4',
-            lineHeight: 0.88,
+            lineHeight: 0.9,
             opacity: 0,
+            letterSpacing: '0.02em',
           }}
         >
           Juan David
