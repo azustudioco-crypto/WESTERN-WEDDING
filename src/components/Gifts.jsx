@@ -77,9 +77,10 @@ export default function Gifts() {
         margin: '0 auto',
         lineHeight: 1.8,
       }}>
-        Si deseas hacernos un regalo, la lluvia de sobres
-        es nuestra preferida. Tu presencia ya es nuestro
-        mayor regalo.
+        Si deseas hacernos un regalo, la lluvia de sobres es nuestra preferida.
+        Sin embargo, recuerda que tu presencia es nuestro mayor regalo.
+        Para nosotros lo más importante es compartir este día rodeados
+        de las personas que amamos — tu compañía vale más que cualquier detalle.
       </p>
     </section>
   )

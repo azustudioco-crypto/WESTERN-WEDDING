@@ -19,8 +19,8 @@ import MusicButton from './components/MusicButton'
 import NavDots from './components/NavDots'
 import SideDecorations from './components/SideDecorations'
 
-import foto1 from './assets/photos/foto1.jpeg'
-import foto2 from './assets/photos/foto2.jpeg'
+import foto1 from './assets/photos/foto9.jpeg'
+import foto2 from './assets/photos/foto4.jpeg'
 
 const SECTION_IDS = [
   's-hero', 's-boda', 's-invitacion', 's-foto1', 's-ceremonia',

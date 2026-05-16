@@ -83,30 +83,7 @@ export default function DressCode() {
         Botas y sombrero son bienvenidos
       </p>
 
-      {/* Color palette circles */}
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        gap: '10px',
-        margin: '28px auto 0',
-      }}>
-        {PALETTE.map((color, i) => (
-          <div
-            key={color}
-            ref={el => circleRefs.current[i] = el}
-            style={{
-              width: '22px',
-              height: '22px',
-              borderRadius: '50%',
-              background: color,
-              border: '0.5px solid rgba(42,26,14,0.2)',
-              opacity: 0,
-              flexShrink: 0,
-            }}
-          />
-        ))}
-      </div>
+      {/* palette removed */}
     </section>
   )
 }

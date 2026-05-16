@@ -48,7 +48,7 @@ export default function Invitation() {
         margin: '0 auto 8px',
         lineHeight: 1.7,
       }}>
-        Tenemos el honor de invitarlos a nuestro matrimonio
+        Tenemos el gusto de invitarlos a nuestro matrimonio
       </p>
       <p style={{
         fontFamily: '"adobe-caslon-pro", serif',

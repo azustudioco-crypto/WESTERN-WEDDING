@@ -105,7 +105,7 @@ export default function RSVPButton() {
         display: 'block',
         marginTop: '18px',
       }}>
-        Fecha límite: 15 de mayo de 2026
+        Fecha límite: 18 de mayo de 2026
       </span>
     </section>
   )

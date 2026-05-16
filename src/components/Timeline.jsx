@@ -211,6 +211,23 @@ export default function Timeline() {
           </div>
         ))}
       </div>
+
+      {/* Fun note below timeline */}
+      <p style={{
+        fontFamily: '"adobe-caslon-pro", serif',
+        fontStyle: 'italic',
+        fontSize: 'clamp(15px, 4vw, 18px)',
+        color: '#8B6040',
+        textAlign: 'center',
+        maxWidth: '420px',
+        margin: '48px auto 0',
+        lineHeight: 1.75,
+        padding: '0 8px',
+      }}>
+        La ceremonia es rápida. La rumba no...
+        <br />
+        así que trae energía, porque la fiesta es hasta tarde.
+      </p>
     </section>
   )
 }

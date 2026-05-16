@@ -25,7 +25,7 @@ export default function NoKids() {
   return (
     <section
       ref={sectionRef}
-      style={{ background: '#FEFAF4', padding: '64px 28px', textAlign: 'center' }}
+      style={{ background: '#FEFAF4', padding: '64px 28px 96px', textAlign: 'center' }}
     >
       <div
         ref={archRef}

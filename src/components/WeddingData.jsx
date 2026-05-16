@@ -130,7 +130,7 @@ export default function WeddingData() {
             fontSize: '19px',
             color: '#6B3A2A',
           }}>
-            Ligia
+            Ligia y Honorio
           </p>
           <p style={{
             fontFamily: '"Jost", sans-serif',
@@ -141,7 +141,7 @@ export default function WeddingData() {
             letterSpacing: '0.12em',
             marginTop: '4px',
           }}>
-            Madre del novio
+            Padres del novio
           </p>
         </div>
       </div>

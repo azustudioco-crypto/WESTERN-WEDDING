@@ -103,7 +103,7 @@ export default function Hero() {
       <div style={{
         position: 'absolute',
         inset: 0,
-        background: 'linear-gradient(to bottom, rgba(42,26,14,0.45) 0%, transparent 45%)',
+        background: 'linear-gradient(to bottom, rgba(42,26,14,0.72) 0%, rgba(42,26,14,0.18) 55%)',
         zIndex: 1,
         pointerEvents: 'none',
       }} />
@@ -112,7 +112,7 @@ export default function Hero() {
       <div style={{
         position: 'absolute',
         inset: 0,
-        background: 'linear-gradient(to top, rgba(42,26,14,0.85) 0%, transparent 60%)',
+        background: 'linear-gradient(to top, rgba(42,26,14,0.92) 0%, rgba(42,26,14,0.3) 55%, transparent 75%)',
         zIndex: 1,
         pointerEvents: 'none',
       }} />
