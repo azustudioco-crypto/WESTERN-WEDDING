@@ -178,20 +178,20 @@ export default function Hero() {
         <div ref={dateRef} style={{ opacity: 0 }}>
           <p style={{
             fontFamily: '"Jost", sans-serif',
-            fontWeight: 300,
-            fontSize: '12px',
-            letterSpacing: '0.42em',
+            fontWeight: 400,
+            fontSize: '15px',
+            letterSpacing: '0.38em',
             color: '#D4B896',
           }}>
             23 · 05 · 2026
           </p>
           <p style={{
             fontFamily: '"Jost", sans-serif',
-            fontWeight: 300,
-            fontSize: '10px',
-            letterSpacing: '0.22em',
-            color: 'rgba(212,184,150,0.6)',
-            marginTop: '5px',
+            fontWeight: 400,
+            fontSize: '13px',
+            letterSpacing: '0.20em',
+            color: 'rgba(212,184,150,0.82)',
+            marginTop: '6px',
           }}>
             Rionegro &amp; Guarne · Antioquia
           </p>

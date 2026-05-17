@@ -5,17 +5,12 @@ import notesIcon from '../assets/illustrations/notes.png'
 export default function MusicButton() {
   const audioRef = useRef(null)
   const [playing, setPlaying] = useState(false)
-  const startedRef = useRef(false)
-
   useEffect(() => {
-    const startOnce = () => {
-      if (startedRef.current) return
-      startedRef.current = true
+    const timer = setTimeout(() => {
       audioRef.current?.play().catch(() => {})
       setPlaying(true)
-    }
-    document.addEventListener('click', startOnce, { once: true })
-    return () => document.removeEventListener('click', startOnce)
+    }, 800)
+    return () => clearTimeout(timer)
   }, [])
 
   const toggle = e => {
