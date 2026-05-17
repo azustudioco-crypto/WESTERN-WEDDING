@@ -2,14 +2,12 @@ import { useRef, useEffect } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import heroImg from '../assets/photos/hero.jpeg'
-import monogram from '../assets/illustrations/JVMONOGRAM.png'
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default function Hero() {
   const sectionRef = useRef(null)
   const imgRef = useRef(null)
-  const monogramRef = useRef(null)
   const vRef = useRef(null)
   const ampRef = useRef(null)
   const jdRef = useRef(null)
@@ -20,11 +18,6 @@ export default function Hero() {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({ defaults: { ease: 'power3.out' } })
 
-      tl.fromTo(monogramRef.current,
-        { opacity: 0, rotation: -5 },
-        { opacity: 1, rotation: 0, duration: 1 },
-        0.3
-      )
       tl.fromTo(vRef.current,
         { x: -60, opacity: 0 },
         { x: 0, opacity: 1, duration: 0.9 },
@@ -128,18 +121,6 @@ export default function Hero() {
         padding: '0 28px',
         textAlign: 'center',
       }}>
-        <img
-          ref={monogramRef}
-          src={monogram}
-          alt="JV"
-          style={{
-            width: '68px',
-            mixBlendMode: 'screen',
-            marginBottom: '16px',
-            opacity: 0,
-          }}
-        />
-
         <h1
           ref={vRef}
           style={{
